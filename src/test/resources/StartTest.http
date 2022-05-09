@@ -1,0 +1,19 @@
+POST localhost:8082/games
+content-type: application/json
+
+{
+  "name": "bob"
+}
+
+###
+
+POST localhost:8082/games/1
+content-type: application/json
+
+{
+  "name": "mad"
+}
+
+###
+
+PATCH localhost:8082/games/1/start

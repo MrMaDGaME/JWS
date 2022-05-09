@@ -1,0 +1,23 @@
+POST localhost:8082/games
+content-type: application/json
+
+{
+  "name": "bob"
+}
+
+###
+
+GET localhost:8082/games
+
+###
+
+GET localhost:8082/games/1
+
+###
+
+POST localhost:8082/games/1
+content-type: application/json
+
+{
+  "name": "mouloud"
+}

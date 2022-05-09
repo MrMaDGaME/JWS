@@ -1,0 +1,4 @@
+export JWS_MAP_PATH="src/test/resources/map1.rle"
+export JWS_TICK_DURATION=250
+export JWS_DELAY_MOVEMENT=1
+export JWS_DELAY_BOMB=4
